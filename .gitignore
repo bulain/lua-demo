@@ -39,3 +39,19 @@ luac.out
 *.x86_64
 *.hex
 
+#nginx
+client_body_temp/
+fastcgi_temp/
+proxy_temp/
+scgi_temp/
+uwsgi_temp/
+logs/
+
+#idea
+.idea/
+
+#lua
+luarocks.bat
+lua.bat
+lua_modules/
+.luarocks/
